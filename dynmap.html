@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html class="sticky-footer" lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="language" content="en" />
+<title>卫星地图[插件生存] - PixelBalloon | 像素气球服务器 </title>
+<link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="images/site7754.css?cache=max&amp;v=f736a54500" />
+<link rel="preload" type="font/woff" href="https://www.tynker.com/global/fonts/open-sans/opensans-regular.woff" as="font" crossorigin>
+<link rel="preload" type="font/woff" href="https://www.tynker.com/global/fonts/open-sans/opensans-bold.woff" as="font" crossorigin>
+<link rel="preload" type="font/woff" href="https://www.tynker.com/global/fonts/roboto-slab/RobotoSlab-Regular-webfont.woff" as="font" crossorigin>
+<link rel="preload" type="font/woff" href="https://www.tynker.com/global/fonts/icomoon/icomoon.woff" as="font" crossorigin>
+<link rel="stylesheet" type="text/css" href="https://www.tynker.com/ext/css/base/minified/jquery-ui.min.css?cache=max&amp;v=aa06ab3500">
+<script type="text/javascript" async="" src="https://www.google-analytics.com/gtm/js?id=GTM-WRCH635&amp;cid=584910884.1598714959"></script><script async="" src="images/analytics.js"></script><script async="" src="gtm5445.html?id=GTM-NFJHBQZ"></script><script type="text/javascript" src="https://www.tynker.com/ext/jquery.js?cache=max&amp;v=f16bd01500"></script>
+<script type="text/javascript" src="images/angular.minba01.js?cache=max&amp;v=2099f7a500"></script>
+<script type="text/javascript" src="images/angular-animate.mina8f8.js?cache=max&amp;v=9affa27500"></script>
+<script type="text/javascript" src="images/angular-ui-router.min6e9b.js?cache=max&amp;v=a467c5c500"></script>
+<script type="text/javascript" src="images/ng-infinite-scroll.min1810.js?cache=max&amp;v=4357541500"></script>
+<link rel="stylesheet" type="text/css" href="https://www.tynker.com/css/old-site.css?cache=max&amp;v=2f6da60500">
+
+<script type="text/javascript" src="images/ng-infinite-scroll.min1810.js?cache=max&amp;v=4357541500"></script>
+
+<script>
+    dataLayer = [];
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NFJHBQZ');</script>
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','images/analytics.js','ga');
+
+    ga('create', 'UA-34332914-1', 'auto');
+
+    // GA Optimize
+    ga('require', 'GTM-WRCH635');
+
+    
+            // Dimension 1: the member type custom dimension
+        ga('set', 'dimension1', 'Browser');
+    
+    // Dimension 2: A/B test tracking, if applicable
+    
+            ga('set', 'dimension3', 'Anonymous');
+    
+    var isHiDpi = window.devicePixelRatio && window.devicePixelRatio >= 1.5;
+    ga('set', 'dimension5', isHiDpi);
+
+    var roleSelectorRole = window.localStorage ? window.localStorage.getItem('selectRole:role') : null;
+    if (roleSelectorRole) {
+        ga('set', 'dimension6', roleSelectorRole);
+    }
+
+        ga('require', 'ec');
+                        ga('send', 'pageview');
+            </script>
+
+<script type="text/javascript" src="images/f.txt" charset="utf-8"></script>
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:133938,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script async="" src="//static.hotjar.com/c/hotjar-133938.js?sv=5"></script><script>
+    </script>
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><meta class="foundation-mq"><style id="css-ddslick" type="text/css">.dd-select{ border-radius:2px; border:solid 1px #ccc; position:relative; cursor:pointer;}.dd-desc { color:#aaa; display:block; overflow: hidden; font-weight:normal; line-height: 1.4em; }.dd-selected{ overflow:hidden; display:block; padding:10px; font-weight:bold;}.dd-pointer{ width:0; height:0; position:absolute; right:10px; top:50%; margin-top:-3px;}.dd-pointer-down{ border:solid 5px transparent; border-top:solid 5px #000; }.dd-pointer-up{border:solid 5px transparent !important; border-bottom:solid 5px #000 !important; margin-top:-8px;}.dd-options{ border:solid 1px #ccc; border-top:none; list-style:none; box-shadow:0px 1px 5px #ddd; display:none; position:absolute; z-index:2000; margin:0; padding:0;background:#fff; overflow:auto;}.dd-option{ padding:10px; display:block; border-bottom:solid 1px #ddd; overflow:hidden; text-decoration:none; color:#333; cursor:pointer;-webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out;-o-transition: all 0.25s ease-in-out;-ms-transition: all 0.25s ease-in-out; }.dd-options > li:last-child > .dd-option{ border-bottom:none;}.dd-option:hover{ background:#f3f3f3; color:#000;}.dd-selected-description-truncated { text-overflow: ellipsis; white-space:nowrap; }.dd-option-selected { background:#f6f6f6; }.dd-option-image, .dd-selected-image { vertical-align:middle; float:left; margin-right:5px; max-width:64px;}.dd-image-right { float:right; margin-right:15px; margin-left:5px;}.dd-container{ position:relative;}​ .dd-selected-text { font-weight:bold}​</style></head>
+	<body class="site-app flat-header bg-default  ng-scope">
+<div class="" style="height: 100%;">
+<header class="header--colorful ">
+<div class="zf-row">
+<div class="hamburger">
+<a data-toggle="off-canvas" href="javascript:void(0)" aria-expanded="false" aria-controls="off-canvas"></a>
+</div>
+<div class="logo">
+<img src="images/logo-black.png" class="logo-img">
+</div>
+<ul class="nav ">
+<li class="float-right ">
+<a ui-sref="" class="nav__item__link" rel="nofollow" href="#">原版生存</a>
+</li>
+<li class="float-right  ">
+<a ui-sref="" class="btn-round-box green small" rel="nofollow" href="index.html">返回首页</a>
+</li>
+</ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content="">
+<script>(function() {
+    var moveCounter = 0;
+    document.addEventListener('mousemove', function(e) { moveCounter++; });
+    document.addEventListener('scroll', function(e) { moveCounter++; });
+    document.addEventListener('click', function(e) {
+        if (moveCounter > 10) {
+            var p = e.target;
+            while (p && p.tagName != 'A') {
+                p = p.parentElement;
+            }
+            if (p && p.tagName == 'A' && p.attributes['data-query'] && p.attributes['data-type'] && p.attributes['class'] && (p.attributes['class'].value.indexOf('card-preview') >= 0 || p.attributes['class'].value.indexOf('category-preview') >= 0)) {
+                window.location = "/dashboard/student/#/community/search/" + encodeURI(p.attributes['data-query'].value) + "?sort=recent&type=" + p.attributes['data-type'].value;
+                e.preventDefault();
+            }
+        }
+    });
+})();
+</script>
+<iframe src="http://asdjkm.eicp.net:8123/" width="100%" height="720"></iframe>
+<script>
+    $("#searchForm").on('submit', (function(e) {
+        e.preventDefault();
+        var query = $(".search-box").val().replace(/-/g, ' ');
+        query = query.replace(/\W+/g, ' ').trim().replace(/\s+/g, '-');
+        if (query.length < 1) {
+            $('.search-box').attr('placeholder', 'TYPE SOMETHING HERE');
+            return false;
+        }
+        ga('send', 'event', 'Community Search', 'Searched', query);
+        $.ajax({
+            url: "\\api/community/spell?query=" + query + '&submit=1',
+            success: function(result) {
+                $(this).attr('action', result.data);
+//                window.location = this.action;
+                window.location = '/dashboard/student/#/community/search/' + encodeURI(query) + '?sort=recent&type=skin';
+            }
+        });
+        return false;
+    }));
+</script>
+<script>
+$(document).ready(function() {
+    $(".search-box").autocomplete({
+        source: []
+    });
+    var suggestLog = {};
+    $(".search-box").keyup(function() {
+        var query = $(this).val();
+        if (query && !(query in suggestLog)) {
+            $.ajax({
+                url: "\\api/community/suggest?query=" + query,
+                success: function(result) {
+                    suggestLog[query] = result.data;
+                    $(".search-box").autocomplete({
+                        source: suggestLog[query]
+                    });
+                }
+            });
+        } else {
+            $(".search-box").autocomplete({
+                source: suggestLog[query]
+            });
+        }
+    });
+});
+</script>
+<div class="js-off-canvas-overlay is-overlay-absolute"></div></div>
+</div>
+
+<div ng-controller="JoinCtrl" class="ng-scope">
+<!-- uiView:  --><div id="join-view" ui-view="" class="ng-scope"></div>
+</div>
+</div>
+<footer>
+<div class="footer-bottom zf-row">
+<div class="zf-column">
+Copyright © 2016 - 2020 PixelBalloon. 版权所有.
+</div>
+</div>
+</footer>
+</div>
+<div class="reveal reveal--video large">
+<iframe src="https://www.tynker.com/ide/imgs/blank.png" width="100%" height="674" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<div class="close-button" data-close="" aria-label="Close modal" type="button">
+<span aria-hidden="true">×</span>
+</div>
+</div>
+
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NFJHBQZ"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script type="text/javascript" src="images/foundation.minf59b.js?cache=max&amp;v=e2d89d1500"></script>
+<script type="text/javascript" src="https://www.tynker.com/js/dist/vendor.js?cache=max&amp;v=48edbba500"></script>
+<script type="text/javascript" src="images/app_site_combinededcf.js?cache=max&amp;v=251984f500"></script><div id="print-area"><div class="print-logo"><img src="/image/tynker-logo.png" alt="Tynker"></div><div class="print-body"></div></div>
+<script type="text/javascript" src="https://www.tynker.com/ide/js/characters"></script>
+<script>
+    var g_timeoutId;
+    $(document).ready(function() {
+        $(document).foundation();
+
+        if (!$.waypoint) {
+            $.waypoint = function() {};
+        }
+
+        // Use html 5 validation to display form validation errors
+        // Only applying to form.check-validity for now, but would like to roll out to check-validity, (or remove
+        // altogether if safari starts enforcing this on their own
+        function hasHtml5Validation () {
+            return typeof document.createElement('input').checkValidity === 'function';
+        }
+        if (hasHtml5Validation()) {
+            $('form').submit(function (e) {
+                if (!this.checkValidity()) {
+                    e.preventDefault();
+                    $(this).addClass('invalid');
+                } else {
+                    $(this).removeClass('invalid');
+                }
+            });
+        }
+
+        // Install the mmenu (mobile hamburger menu)
+        $('nav#menu-left').mmenu({
+            onClick: {
+                close: true,
+                preventDefault: false,
+                setSelected: true
+            }
+        });
+
+        $('.sendfeedback').click(function() {
+            Tynker.feedback.showForm('global', 'Send Feedback to Tynker');
+            return false;
+        });
+
+          //Checkbox
+//        $('input').iCheck({
+//            checkboxClass: 'icheckbox_minimal',
+//            radioClass: 'iradio_minimal',
+//        });
+
+        $(function() {
+            $('#helpLanguage').tipsy({trigger: 'hover', gravity: 'e'});
+            $('.tooltip').tipsy({trigger: 'hover', gravity: 'e'});
+        });
+
+        $('#puzzleHeadSwitch > li > a').click(function () {
+            if ($('#puzzleHead').hasClass("puzzleHeadFull")){
+                $('#puzzleHead').removeClass("puzzleHeadFull").addClass("puzzleHeadShort");
+            } else {
+                $('#puzzleHead').removeClass("puzzleHeadShort").addClass("puzzleHeadFull");
+            }
+            $(window).resize();
+            return false;
+        });        
+
+        $('a.volumeSwitch').click(function(event) {
+            if($(this).hasClass('icon-volume-high')) {
+                // sound off
+                $(this).removeClass('icon-volume-high').addClass('icon-mute');
+                $('#playerWrap').find('iframe')[0].contentWindow.Runtime.muteAllSounds();
+                $.cookie('tynker_volume', 'off', {path:'/'});
+            } else {
+                // sound on
+                $(this).addClass('icon-volume-high').removeClass('icon-mute');
+                $('#playerWrap').find('iframe')[0].contentWindow.Runtime.unmuteAllSounds();
+                $.cookie('tynker_volume', 'on', {path:'/'});
+            }
+            return false;
+        });
+
+        $('#learnMore').click(function(event) {
+            $.modal.close();
+            return true;
+        });
+
+        // AJAX the newsletter subscribe form, but use custom success action
+        // (redirect to the /about/newsletter page in edit mode
+        $('#subscribe-form').ajaxForm({
+            success: function(data) {
+                if (!data.subscription_id) {
+                    $(this).find('.js-error').text(data.error);
+                    return;
+                }
+                var subscriptionId = data.subscription_id;
+                window.location = '/about/newsletter?id=' + subscriptionId;
+            }
+        });
+
+        //
+        // Apply some recurring jQuery plug-ins globally, targeting a standard selector
+        //
+
+        $('.js-historyback').click(function() {
+            window.history.back();
+        });
+
+        // Accordion behavior (toggles active class on element)
+        $('.accordion > .accordion-header, .faq-accordion > .accordion-header').click(function(){
+            var $accordion = $(this).parents('.accordion, .faq-accordion');
+            $accordion.toggleClass('active');
+        });
+
+        // Adding .js-ajax-form auto-applies ajaxForm plug-in, with default arguments and no success or error handlers.
+        $('.js-ajax-form').ajaxForm();
+
+        // Adding .js-dd-slick auto-applies ddslick plug-in, with default arguments and no change handler.
+        $('.js-dd-slick').ddslick();
+
+        // Adding .js-play-modal-video auto-applies playVideoModal plug-in, with default arguments
+        $('.js-play-modal-video').playModalVideo({modalSelector: '.reveal--video'});
+
+        $('.js-play-project').playProject({facebookAppId: '189623408308473'});
+
+        $('.flippable.flippable--flip-on-click').click(function() {
+            var $this = $(this);
+
+            // Unflip all cards (only one can be flipped at each time)
+            $('.flippable--flipped')
+                //.toggleClass('flippable--unflipped')
+                .toggleClass('flippable--flipped');
+
+            if ($this.hasClass('flippable--flipped') || $this.hasClass('flippable--unflipped')) {
+                //$(this).toggleClass('flippable--unflipped');
+                $(this).toggleClass('flippable--flipped');
+            } else {
+                $(this).addClass('flippable--flipped');
+            }
+
+//        }).mouseenter(function() {
+//            var $self = $(this);
+//            clearTimeout(g_timeoutId);
+//            g_timeoutId = setTimeout(function() {
+//                $self.removeClass('flippable--unflipped');
+//                $self.addClass('flippable--flipped');
+//            }, 2000);
+//
+//        }).mouseleave(function() {
+//            clearTimeout(g_timeoutId);
+//            var $self = $(this);
+//            $self.removeClass('flippable--unflipped');
+//            $self.removeClass('flippable--flipped');
+        });
+    });
+
+    // Postponing global search implementation
+    ////Expandable search box
+    //new UISearch( document.getElementById( 'search-box' ) );
+    
+    function popupFBWindow() {
+        var newwindow = window.open('http://www.facebook.com/sharer.php?s=100&p[url]=http://www.tynker.com/hour-of-code&p[title]=Join Tynker\'s Hour of Code&p[summary]=Introduce children to programming in a fun and easy way - Tynker\'s '+escape('#HourOfCode')+' is now available! Check out our free tutorials for kids in grades 1 to 8.&p[images][0]=http://www.tynker.com/image/hoc/tynker-puppy-adventure-icon-80x80.jpeg&p[images][1]=http://www.tynker.com/image/hoc/tynker-lost-in-space-icon-80x80.jpeg&p[images][2]=http://www.tynker.com/image/hoc/tynker-sketch-racer-icon-80x80.jpeg&p[images][2]=http://www.tynker.com/image/hoc/tynker-15-block-icon-80x80.jpeg', 'share', 'menubar=0,status=0,titlebar=0,width=600,height=600');
+        if(window.focus) {newwindow.focus()}
+    }
+
+    function popupTWWindow() {
+        var newwindow = window.open('https://twitter.com/intent/tweet?url=http://www.tynker.com/hour-of-code&text=We\'re loving the '+escape('@gotynker #HourOfCode')+' ! Check out their free '+escape('#programming')+' tutorials for children ', 'share', 'menubar=0,status=0,titlebar=0,width=600,height=600');
+        if(window.focus) {newwindow.focus()}
+    }
+
+    function popupGPWindow() {
+        var newwindow = window.open('https://plus.google.com/share?url=http://www.tynker.com/hour-of-code&content=Join Tynker\'s Hour of Code. Introduce children to programming in a fun and easy way - Tynker\'s '+escape('#HourOfCode')+' is now available! Check out our free tutorials for kids in grades 1 to 8.', 'share', 'menubar=0,status=0,titlebar=0,width=600,height=600');
+        if(window.focus) {newwindow.focus()}
+    }
+    </script>
+<script>
+/**
+ * Log an event.  Uses google analytics.  If doesn't exist, will nop.
+ */
+function _log(module, action, label, value) {
+    if (!window.ga) {
+        return;
+    }
+
+    // Assemble the category dynamically
+    var category = '(student) portal - ' + module;
+
+    // @TODO: Temporary, for assessing the event quota (too many events) hypothesis
+    // Silencing all events with category "(student) portal - myclass"
+    if (category == '(student) portal - myclass') {
+        return;
+    }
+
+    var params = ['send', 'event', category, action];
+    if (label) {
+        params.push('' + label);
+        if (value) {
+            params.push(parseInt(value));
+        }
+    }
+    ga.apply(null, params);
+}
+</script>
+
+<script type="text/javascript" src="images/raven.minc94c.js?cache=max&amp;v=847c6e4500" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    Raven.config('https://2c0dae7996fa454ea1a9ce1016e4c329@sentry.tynker.com/5', {
+        dataCallback: function (data) {
+            if(window.location !== undefined && window.location.href != null) {
+                if(data.extra === undefined) { data.extra = {}; }
+                data.extra['full_url'] = window.location.href;
+            }
+            return data;
+        },
+        ignoreErrors: [
+            // Error generated by a bug in auto-fill library from browser
+            // https://github.com/getsentry/sentry/issues/5267
+            /Blocked a frame with origin/,
+        ]
+    }).install();
+    Raven.setUserContext({"username":"unhappyskyscraper490"});
+    window.__Raven = Raven;
+</script>
+<script type="text/javascript" src="images/site_combined20a6.js?cache=max&amp;v=c00dad7500"></script>
+<script type="text/javascript" src="images/site29d8.js?cache=max&amp;v=4e35ae5500"></script>
+<script id="site-state" type="application/json">
+    {"isEU":false,"isUserLoggedIn":false,"isToolsLogin":null}</script>
+
+<script type="text/javascript" src="https://www.tynker.com/js/projectplayer.min.js?cache=max&amp;v=e7f8bbb500"></script>
+<script type="text/javascript" src="https://www.tynker.com/js/projects.min.js?cache=max&amp;v=dd562f5500"></script>
+<script type="text/javascript" src="https://www.tynker.com/global/js/inc/_project_tile.js?cache=max&amp;v=50637a7500"></script>
+<script type="text/javascript">
+        // Adding responsiveness to iframe videos
+        $('.responsive-video').fitVids();
+            </script>
+
+<script type="text/javascript" src="https://www.tynker.com/js/mytynker.js?cache=max&amp;v=11ff13d500"></script>
+<script type="text/javascript" src="https://www.tynker.com/minecraft/js/community.min.js?cache=max&amp;v=a353710500"></script>
+<script type="text/javascript" src="https://www.tynker.com/minecraft/js/skinrender.min.js?cache=max&amp;v=b93550a500"></script>
+<script type="text/javascript" src="https://www.tynker.com/ext/three.min.js?cache=max&amp;v=b53f8c5500"></script>
+<script type="text/javascript" src="https://www.tynker.com/ext/threex.dynamictexture.min.js?cache=max&amp;v=30360e3500"></script>
+<script type="text/javascript" src="https://www.tynker.com/minecraft/js/entityrender.min.js?cache=max&amp;v=f7fdcf6500"></script>
+<script>
+    </script>
+
+
+<!-- Mirrored from www.tynker.com/minecraft/skins/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 02 Jun 2020 07:44:56 GMT -->
+
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="z-index: 1; display: none;"></ul><div id="win-spine" class="winpanel avatar-select modal"><div class="winspine-header presetchooser"><h2>Choose Your Avatar</h2><a class="partschooser presetsBtn" href="#">View All Characters</a><a href="#" class="partschooser button primary small saveBtn" style="margin-top: 1rem;">Save</a></div><div class="winspine-content presetchooser chartypes hidden"><div class="character-class"><ul></ul></div><div class="presets"><ul></ul></div></div><div class="winspine-content partschooser hidden"><div class="chooser"><div class="groups"><ul class="top"></ul></div><div class="parts"><ul></ul></div></div><canvas width="1000" height="1000"></canvas><div class="animations"><ul></ul></div></div></div><div class="modal projecttemplates-modal"><div class="projecttemplates-title"><a class="back hidden" href="#"></a><h2>What do you want to make?</h2></div><div class="projecttemplates-container"></div></div><div class="modal project-error-modal"><div class="modal-body"><div class="project-error-title"><h2>Error</h2></div><div class="project-error-container"></div></div><div class="modal-footer"></div></div><div class="modal community-asset-report" style="border-radius:8px"><div class="modal-header"><h2>Report this <span></span></h2></div><div class="modal-body"><p>Please describe the problem with this <span></span>:</p><form><textarea style="width:400px;height:8em;"></textarea></form></div><div class="modal-footer"><a class="cancel btn-round blue" href="#">Cancel</a><a class="report btn-round orange" href="#">Report</a></div></div><div class="modal community-asset-report" style="border-radius:8px"><div class="modal-header"><h2>Report this <span></span></h2></div><div class="modal-body"><p>Please describe the problem with this <span></span>:</p><form><textarea style="width:400px;height:8em;"></textarea></form></div><div class="modal-footer"><a class="cancel btn-round blue" href="#">Cancel</a><a class="report btn-round orange" href="#">Report</a></div></div></body>
+</html>
